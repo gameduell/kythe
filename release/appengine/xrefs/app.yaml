@@ -1,0 +1,15 @@
+application: kythe-repo
+module: xrefs
+runtime: custom
+vm: true
+api_version: 1
+threadsafe: yes
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 5
+skip_files: .*
+
+handlers:
+- url: .*
+  secure: always
+  script: main.app

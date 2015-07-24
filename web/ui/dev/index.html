@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kythe XRefs Browser</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+
+<!--markup for the details view-->
+<div class="modal fade" id="gd-details" tabindex="-1" role="dialog" aria-labelledby="gd-details-label">
+    <div class="modal-dialog modal-lg" role="document" id="gd-details-content">
+        <!--filled by react-->
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header">
+        <h3>GD Codebase browser</h3>
+    </div>
+    <div class="container-row gd-kythe">
+        <div id="kythe-search" class="form-group col-lg-12 border"></div>
+        <div id="kythe"></div>
+    </div>
+    <div class="container-row">
+        <div class="col-lg-12 border gd-footer">@@@ footer @@@</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    console.warn = function(){
+        /* TODO this is to suppress several thousands warnings from react */
+        /* TODO remove this when not needed anymore */
+    }
+</script>
+<!--TODO remove jquery dependency-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://fb.me/react-0.12.1.js"></script>
+<script src="js/goog/base.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+    goog.require("ui.core");
+</script>
+
+<!--TODO implement some kind of dependency management: use goog or gambit-->
+<script src="js/ext/qol.js" type="text/javascript"></script>
+<script src="js/ext/details.js" type="text/javascript"></script>
+<script src="js/ext/async.js" type="text/javascript"></script>
+<script src="js/ext/search.js" type="text/javascript"></script>
+<script src="js/ext/react.js" type="text/javascript"></script>
+<script src="js/ext/main.js" type="text/javascript"></script>
+
+
+</body>
+</html>
