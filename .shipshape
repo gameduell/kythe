@@ -1,0 +1,13 @@
+global:
+  ignore:
+    - bazel-bin/
+    - bazel-genfiles/
+    - bazel-testlogs/
+    - bazel-out/
+    - third_party/
+    - shipshape/analyzers/govet/testdata/
+
+events:
+  - event: default
+    categories:
+      - go vet

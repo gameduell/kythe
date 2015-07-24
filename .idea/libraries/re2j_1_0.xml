@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="re2j-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/third_party/re2j/re2j-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
