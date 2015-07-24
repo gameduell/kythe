@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kythe/kythe.iml" filepath="$PROJECT_DIR$/kythe/kythe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/ruby/src/main/main.iml" filepath="$PROJECT_DIR$/third_party/proto/ruby/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/java/src/main/main1.iml" filepath="$PROJECT_DIR$/third_party/proto/java/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/javanano/src/main/main2.iml" filepath="$PROJECT_DIR$/third_party/proto/javanano/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/proto.iml" filepath="$PROJECT_DIR$/third_party/proto/proto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/javanano/src/test/test.iml" filepath="$PROJECT_DIR$/third_party/proto/javanano/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/proto/java/src/test/test1.iml" filepath="$PROJECT_DIR$/third_party/proto/java/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/third_party.iml" filepath="$PROJECT_DIR$/third_party/third_party.iml" />
+    </modules>
+  </component>
+</project>

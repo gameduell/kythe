@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/third_party/bazel/tools/jdk/SingleJar_deploy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/third_party/bazel/tools/jdk/JavaBuilder_deploy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
